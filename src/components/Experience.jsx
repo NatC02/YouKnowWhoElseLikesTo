@@ -1,4 +1,4 @@
-import { Environment, Float, Gltf, TransformControls } from "@react-three/drei";
+import { Float, Gltf, TransformControls } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { useAtom } from "jotai";
 import { useRef } from "react";
