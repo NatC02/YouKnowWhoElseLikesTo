@@ -43,7 +43,6 @@ export function YouKnowWhoElseLikesTo({ animation, scale = 130, ...props }) {
       });
     });
 
-    // wiggle for breast0 and its children
     ["Breast"].forEach((rootBone) => {
       if (!nodes[rootBone]) {
         return;
