@@ -28,7 +28,6 @@ export function YouKnowWhoElseLikesTo({ animation, scale = 130, ...props }) {
       return;
     }
 
-    // Wiggle for Belly01
     ["Belly01"].forEach((rootBone) => {
       if (!nodes[rootBone]) {
         return;
@@ -44,7 +43,7 @@ export function YouKnowWhoElseLikesTo({ animation, scale = 130, ...props }) {
       });
     });
 
-    // New wiggle for breast0 and its children
+    // wiggle for breast0 and its children
     ["Breast"].forEach((rootBone) => {
       if (!nodes[rootBone]) {
         return;
@@ -52,8 +51,8 @@ export function YouKnowWhoElseLikesTo({ animation, scale = 130, ...props }) {
       nodes[rootBone].traverse((bone) => {
         if (bone.isBone) {
           const wiggleBone = new WiggleBone(bone, {
-            damping: 40,  // Slightly different damping for variety
-            stiffness: 900,  // Slightly lower stiffness
+            damping: 40,
+            stiffness: 900,
           });
           wiggleBones.current.push(wiggleBone);
         }
