@@ -67,7 +67,7 @@ export const Experience = () => {
           <Gltf scale={0.2} src="/models/Tv.glb" />
         </Float>
       </group>
-      <TransformControls mode="scale" position-y={1.3}>
+      <TransformControls position-y={1.3}>
         <YouKnowWhoElseLikesTo animation={youknowwhoelselikesto ? "DancingSwing" : "IdleBreath"} position-y={-1} />
       </TransformControls>
       <directionalLight position={[11, 5, 11]} intensity={5.5} />
