@@ -19,6 +19,6 @@ npm run build
 
 # Resources:
 
-[TV](https://sketchfab.com/3d-models/lowpoly-old-tv-1ab0b494e6e4424eb629ad1963356461)
-[RV](https://sketchfab.com/3d-models/muscle-mans-rv-environment-scene-21ecaee6ff664c209d379e531aff1346)
-[Muscle Man](https://sketchfab.com/3d-models/muscle-man-cd0f1c8d541048e5bf5926dd271dfd6e)
+- [TV](https://sketchfab.com/3d-models/lowpoly-old-tv-1ab0b494e6e4424eb629ad1963356461)
+- [RV](https://sketchfab.com/3d-models/muscle-mans-rv-environment-scene-21ecaee6ff664c209d379e531aff1346)
+- [Muscle Man](https://sketchfab.com/3d-models/muscle-man-cd0f1c8d541048e5bf5926dd271dfd6e)
